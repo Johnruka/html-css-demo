@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-DEMO</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header><h1>HTML CSS Basics Tutorial</h1></header>
+
+  <nav>
+    <a>Home</a>
+    <a>Login</a>
+    <a>Register</a>
+    <a>Contact</a>
+  </nav>
+
+  <main class="container">
+    <form class="form-lable">
+      <h3>Registration Form</h3>
+      <hr />
+      <label><b>First Name *</b></label>
+      <input
+        type="text"
+        value=""
+        id="first-name"
+        placeholder="First Name"
+        required
+      />
+      <br />
+
+      <label><b>Last Name *</b></label>
+      <input
+        type="text"
+        value=""
+        id="last-name"
+        placeholder="Last Name"
+        required
+      />
+
+      <br />
+      <label><b>Email *</b></label>
+      <input type="text" value="" id="email" placeholder="Email" required />
+
+      <br />
+      <label><b>Course *</b></label>
+      <select>
+        <option value="1">Java</option>
+        <option value="2">C#</option>
+        <option value="3">Python</option>
+      </select>
+
+      <br />
+      <button type="button">Register</button>
+    </form>
+    <hr />
+    <table border ="1">
+      <thead>
+        <tr>
+          <th id="id-text">ID</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mehrdad</td>
+          <td>Javan</td>
+          <td>
+            <button type="button" class="delete-btn">Delete</button>
+            <button type="button" class="edit-btn">Edit</button>
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Simon</td>
+          <td>Elbrink</td>
+          <td>
+            <button type="button" class="delete-btn">Delete</button>
+            <button type="button" class="edit-btn">Edit</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>&copy; Lexicon 2024</footer>
+</body>
+</html>
